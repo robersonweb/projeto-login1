@@ -2,6 +2,11 @@
 /* Paleta de cores 
     * #0252B3
     * #D3724F */
+*{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
 body{
-    background:#D3724F;
+    background-image: linear-gradient(to bottom, #0252B3, #9F436C, #E6EC67);
 }
