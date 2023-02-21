@@ -1,7 +1,8 @@
 @charset "utf-8";
 /* Paleta de cores 
     * #253C59
-    * #58788C */
+    * #58788C 
+    * #BC0E5D */
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
@@ -12,7 +13,7 @@ body, html{
     background-color:#253C59;
     height: 100vh;
     width: 100vw;
-}
+}  
 
 main{
     position: relative;
@@ -35,11 +36,15 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.555);
+
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
+
 }
 
 section#login > div#imagem{
     display: block;
-    background: #58788C url(../imagens/imgentrada.jpg) no-repeat;
+    background: #58788C url(../imagens/imglogin.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
