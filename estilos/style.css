@@ -65,6 +65,19 @@ div#formulario > p {
 
 }
 
+form > div.campo {
+   background-color: #58788C;
+   display: block;
+   width: 100%; 
+   height: 40px;
+   border-radius: 5px;
+   margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none; 
+}
+
 form > input[type=submit] { /*configurar o botão ENVIAR */
     
     display: block;
@@ -83,7 +96,7 @@ form > input[type=submit] { /*configurar o botão ENVIAR */
 
 
 form > input[type=submit]:hover {
-    background-color: rgba(29, 156, 29, 0.986);
+    background-color: #2d6462;
 }
 
 form > a.botao {
@@ -98,15 +111,16 @@ form > a.botao {
     border-radius: 5px;
     border: 1px solid rgba(15, 136, 15, 0.767);
     text-decoration: none;
-    color: rgba(15, 136, 15, 0.767);
+    color: #0f880fc4;
     
 }
 
 form > a.botao:hover{
-    background-color: rgba(96, 206, 96, 0.767);
+    background-color: rgba(96, 206, 96, 0.767) ;
 }
 
 form > a.botao > span {
     font-size: 0.9em;
 }
+
 
