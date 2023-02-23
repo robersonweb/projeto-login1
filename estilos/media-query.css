@@ -7,12 +7,14 @@
     }
     section#login {
     width: 70vw;
+    height: 50%;
     }
 
     section#login > div#imagem {
     float: left;
     width: 30%;
     height: 100vh;
+    
     }
 
     section#login > div#formulario {
@@ -34,13 +36,14 @@
 }
 
 @media screen and (min-width: 992px) {
-    body{
+    body{ /*versão para desktop*/
         background-image: linear-gradient(to top, #BC0E5D, #253C59);
 
     }
 
     section#login {
         width: 990px;
+        height: 50%;
     }
 
     section#login > div#imagem {
@@ -63,6 +66,8 @@
 
     div#formulario > p {
         font-size: 1.8em;
+        margin: 20px 0px;
+        
 
     }
     

@@ -26,7 +26,7 @@ section#login{
     position: absolute;
     top: 50%;        
     left: 50%;
-    transform: translate(-50%, -50%);
+    /*transform: translate(-50%, -50%);*/
     /* esses 4 comandos acima fazem ficar centralizado o conteúdo */ 
 
     overflow: hidden; /* tudo que ficar fora da borda fica escondido*/
@@ -36,17 +36,19 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.555);
-
+    
+    transform: translate(-50%, -50%);
     transition: width 1s, height 1s;
-    transition-timing-function: ease;
+    transition-timing-function: ease; /*Todas as transformações devem estar no final do códig, assim como está aqui!*/
 
 }
 
 section#login > div#imagem{
     display: block;
+    
     background: #58788C url(../imagens/imglogin.jpg) no-repeat;
     background-size: cover;
-    background-position: left bottom;
+    background-position: left;
     height: 200px;
 }
 
@@ -93,9 +95,9 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 45px);
     height: 100%;
-    transform: translateY(-12px);
     border-radius: 8px;
     padding: 5px;
+    transform: translateY(-12px);/*Todas as transformações devem estar no final do códig, assim como está aqui!*/
 }
 
 form > input[type=submit] { /*configurar o botão ENVIAR */
