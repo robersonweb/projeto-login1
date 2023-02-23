@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px){ /*versão para tablet*/
 
     body {
-    background-image: linear-gradient(to top, #BC0E5D, #253C59);
+    background-image: linear-gradient(to top, #827a9e, #253C59);
     }
     section#login {
     width: 70vw;
@@ -43,7 +43,7 @@
 
     section#login {
         width: 990px;
-        height: 50%;
+        height: 60%;
     }
 
     section#login > div#imagem {
